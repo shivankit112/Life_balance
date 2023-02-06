@@ -11,6 +11,6 @@ document.querySelector(".submit").addEventListener("click", () => {
 
     }).then((res) => {
         console.log(res);
-        window.location.href = "/";
+        window.location.href = "balance.html";
     }).catch((error) => console.log(error));
 })
