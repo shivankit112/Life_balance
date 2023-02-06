@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <a href="/">
+                <img src="" alt="" class="logo-one">
+            </a>
+        </div>
+    </header>
+
+    <section id="main-content" class="content">
+        <div id="life-wheel" class="row-small-margin-top">
+
+            <!-- <h2 class="small-margin-bottom">Check Your Life Balance</h2> -->
+
+
+            <div class="medium-2 column">
+                <h2 class="small-margin-bottom">Check Your Life Balance</h2>
+                <p>
+                    Without balance in our life there is NO true success. The more balance we create between the
+                    important life areas, the more success, happiness and wellbeing you enjoy.
+                </p>
+                <p>
+                    Check your life balance now by giving yourself a score in each of the life areas below.
+                </p>
+                <p>
+                    Watch the video to see how and follow the instruction to boost your life balance.
+                </p>
+            </div>
+
+            <div class="medium-6 column">
+                <div class="video-js" id="video-player" data-setup="" preload="auto" tabindex="-1" role="region"
+                    lang="en" translate="no" aria-label="Video Player">
+                    <video preload="auto" data-setup="" id="video-player_html5_api" class="vjs-tech" tabindex="-1"
+                        role="application" controls>
+                        <source src="Himanshu_4.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+
+        <div class="c">
+            <form class="form">
+                <h1 class="five">6 Forms of life</h1>
+                <h5>
+                    <img src="hea.png" class="slider icon">
+                    Health Life
+                    <span class="label secondary">1</span>
+                </h5>
+                <input onchange="rangeChange()" type="range" class="form-range" id="hlRange1" min="1" max="10" step="1" value="1">
+    
+                <h5>
+                    <img src="mental.png" class="slider icon">
+                    Mental Life
+                    <span class="label secondary">1</span>
+                </h5>
+                <input onchange="rangeChange()" type="range" class="form-range" id="ilRange2" min="1" max="10" step="1" value="1">
+    
+                <h5>
+                    <img src="social.png" class="slider icon">
+                    Social Life
+                    <span class="label secondary">1</span>
+                </h5>
+                <input onchange="rangeChange()" type="range" class="form-range" id="slRange3" min="1" max="10" step="1" value="1">
+    
+                <h5>
+                    <img src="rupe.png" class="slider icon">
+                    Money Life
+                    <span class="label secondary">1</span>
+                </h5>
+                <input onchange="rangeChange()" type="range" class="form-range" id="mlRange4" min="1" max="10" step="1" value="1">
+    
+                <h5>
+                    <img src="career.png" class="slider icon">
+                    Career Life
+                    <span class="label secondary">1</span>
+                </h5>
+                <input onchange="rangeChange()" type="range" class="form-range" id="clRange5" min="1" max="10" step="1" value="1">
+    
+                <h5>
+                    <img src="relationship.png" class="slider icon">
+                    Relationship Life
+                    <span class="label secondary">1</span>
+                </h5>
+                <input onchange="rangeChange()" type="range" class="form-range" id="rlRange6" min="1" max="10" step="1" value="1">
+                <button type="submit" class="button primary large small-margin-top" onclick="">
+                    <span class="fal fa-clipboard-check"></span>
+                    SUBMIT
+                </button>
+            </form>
+
+            <div id="chartjs">
+                <canvas id="canvas"></canvas>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <footer class="no-print">
+        <div class="row column text-center" style="display: flex; flex-direction: column; gap: 1rem;">
+            <!-- <div class="medium-margin-bottom">
+                <a href="/"><img src="" alt="" style="max-height: 60px;"></a>
+            </div> -->
+            <div style="width: 100%; display: flex; justify-content: center; font-size: 18px;">
+                <span> All Rights Reserved 2022 © </span> 
+                <span><a href="/about/privacy-policy" style="color: rgb(255, 255, 255);">Copyright</a> - </span>
+                <span><a href="/about/terms-and-conditions" style="color: rgb(255, 255, 255);">Himanshu Gaur 2022</a></span>
+            </div>
+            <div style="color: rgb(102, 102, 102); width: 100%; display: flex; justify-content: center">
+                <small>
+                    <ul id="menu-1-92adfb0" class="hfe-nav-menu"><li id="menu-item-2016" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a target="_blank" rel="noopener" href="https://holistic.himanshugaur.in/terms-and-conditions/" class="hfe-menu-item">Terms And Conditions</a></li>
+                        <li id="menu-item-2014" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a target="_blank" rel="noopener" href="https://holistic.himanshugaur.in/privacy-policy-2" class="hfe-menu-item">Privacy Policy</a></li>
+                        <li id="menu-item-2013" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a target="_blank" rel="noopener" href="https://holistic.himanshugaur.in/disclaimer" class="hfe-menu-item">Disclaimer</a></li>
+                        <li id="menu-item-2011" class="menu-item menu-item-type-post_type menu-item-object-page parent hfe-creative-menu"><a target="_blank" rel="noopener" href="https://holistic.himanshugaur.in/about-us" class="hfe-menu-item">About Us</a></li>
+                    </ul>
+                </small>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

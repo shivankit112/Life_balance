@@ -1,0 +1,395 @@
+body {
+    font-weight: 400;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Quicksand, Helvetica, Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    margin: 0%;
+    padding: 0%;
+}
+
+#main-content {
+    min-height: 750px;
+}
+
+.section {
+    display: block;
+}
+
+
+
+.logo {
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 30px;
+    background-image: url(logo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    width: auto;
+    background-size: 100% auto;
+
+
+}
+
+.main-header .logo
+/* header */
+
+
+/* .logo-one{
+    background-size: cover;
+    
+} */
+
+.small-margin-bottom {
+    margin-bottom: 15px;
+    font-size: 2.25rem;
+
+
+
+}
+
+h2 {
+    font-family: Quicksand, sans-serif;
+    padding-left: 15%;
+
+    margin-bottom: auto;
+
+
+}
+
+.small-margin-bottom {
+    font-size: 2.28rem;
+}
+
+#life-wheel {
+    display: flex;
+}
+
+/* .h2{
+    font-weight: 400;
+    font-style: normal;
+    
+} */
+
+.b {
+    padding-left: 15%;
+    padding-right: 50%;
+
+}
+
+p {
+    line-height: 1.6;
+    font-size: inherit;
+    margin-bottom: 1.6rem;
+    text-rendering: optimizeLegibility;
+    font-size: 20px
+}
+
+#life-wheel div {
+    width: 50%;
+}
+
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-rendering: optimizeLegibility;
+    font-size: 20px;
+    line-height: 1.6;
+    /* margin-bottom: 1rem; */
+    padding-left: 15%;
+    padding-right: 20%;
+}
+
+
+
+.video-js {
+    /* background-color: #000; */
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    padding: 0;
+    position: relative;
+    vertical-align: top;
+    word-break: normal;
+}
+
+
+
+.vjs-tech {
+    height: 500px;
+    width: 500px;
+
+    text-align: right;
+
+
+
+}
+
+
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+
+h5 {
+    text-rendering: optimizeLegibility;
+    color: inherit;
+    font-family: Quicksand, Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* @media print, screen and (min-width: 40em)
+h5{
+    font-size: 1.25rem;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-rendering: optimizeLegibility;
+    color: inherit;
+    font-family: Quicksand, Helvetica, Roboto, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.label {
+    border-radius: 4px;
+    cursor: default;
+    display: inline-block;
+    font-size: .8rem;
+    line-height: 1;
+    padding: 0.33333rem 0.5rem;
+    padding-top: 0.33333rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.33333rem;
+    padding-left: 0.5rem;
+    white-space: nowrap;
+}
+
+.label.secondary {
+
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: #F8E100;
+    color: #0a0a0a;
+}
+
+#life-wheel .slider {
+    margin-bottom: 15px;
+}
+
+input {
+    overflow: visible;
+    font-family: inherit;
+}
+
+.c {
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10%;
+    margin-top: 5%;
+}
+
+.c .form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+#chartjs {
+    height: auto;
+    width: 50%;
+}
+
+input[type=range] {
+
+
+    appearance: none;
+    border: 0;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-top-style: initial;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 4px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    cursor: pointer;
+    display: block;
+    height: auto;
+    line-height: 1;
+    margin-bottom: 0.45rem;
+    margin-top: 0.45rem;
+
+}
+
+input {
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+
+}
+
+
+.h2 {
+    font-family: Quicksand, sans-serif;
+    /* font-size: 2.5rem; */
+    display: block;
+
+}
+
+
+.life-wheel .c {
+    height: 100%;
+    width: 100%;
+    box-sizing: inherit;
+}
+
+#life-wheel .slider {
+    margin-bottom: 15px;
+
+
+}
+
+/* save button css */
+
+.button.primary {
+    background-color: #F8E100;
+    color: black
+}
+
+.button.large {
+    font-size: 1.28rem;
+}
+
+/* .small-margin-top {
+    margin-top: 30px;
+} */
+
+/* [type=submit] {
+    appearance: none;
+    border-radius: 4px;
+} */
+
+.button {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: inherit;
+    font-size: .9rem;
+    line-height: 1;
+    margin-top: 10%;
+    padding: 0.85em 1em;
+    text-align: center;
+    transition: none;
+    vertical-align: middle;
+}
+
+button {
+    text-transform: none;
+}
+
+button {
+    overflow: visible;
+}
+
+footer {
+    background-color: #cccbcb;
+    color: #fefefe;
+    width: 100%;
+    padding: 1rem 0;
+}
+
+.five {
+    font-size: 50px;
+    font-family: serif;
+}
+
+/* png img */
+
+.slider {
+    height: 25px;
+}
+
+/* footer */
+li {
+    float: left;
+    display: block;
+}
+
+li a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+
+}
